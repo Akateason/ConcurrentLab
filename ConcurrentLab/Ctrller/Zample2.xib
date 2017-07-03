@@ -41,13 +41,52 @@
                         <action selector="onclickAction:" destination="-1" eventType="touchUpInside" id="dt0-FT-vpP"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E3q-O3-rlP">
+                    <rect key="frame" x="164" y="243" width="46" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="46" id="2Fc-UU-34O"/>
+                        <constraint firstAttribute="height" constant="30" id="d1o-gg-p8s"/>
+                    </constraints>
+                    <state key="normal" title="demo1"/>
+                    <connections>
+                        <action selector="onclickAction:" destination="-1" eventType="touchUpInside" id="O7Q-hC-gYa"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jwo-Fv-uK5">
+                    <rect key="frame" x="162" y="306" width="50" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="6z8-EJ-z4D"/>
+                        <constraint firstAttribute="height" constant="30" id="Ytr-ql-ONa"/>
+                    </constraints>
+                    <state key="normal" title="demo2"/>
+                    <connections>
+                        <action selector="onclickAction:" destination="-1" eventType="touchUpInside" id="lxU-Bu-okD"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CdT-lq-Aiw">
+                    <rect key="frame" x="91" y="362" width="193" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="193" id="R3q-hG-sS4"/>
+                        <constraint firstAttribute="height" constant="30" id="xG4-GU-OSO"/>
+                    </constraints>
+                    <state key="normal" title="ProductiveAndConsumption"/>
+                    <connections>
+                        <action selector="onclickAction:" destination="-1" eventType="touchUpInside" id="OZe-8k-GoV"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="vvR-Qa-7kk" firstAttribute="top" secondItem="0NP-MK-h5x" secondAttribute="bottom" constant="39" id="4zF-dS-U2x"/>
                 <constraint firstItem="0NP-MK-h5x" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="9Wg-df-0fL"/>
+                <constraint firstItem="CdT-lq-Aiw" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="OFc-xo-JbI"/>
+                <constraint firstItem="CdT-lq-Aiw" firstAttribute="top" secondItem="Jwo-Fv-uK5" secondAttribute="bottom" constant="26" id="ccT-FK-VFp"/>
                 <constraint firstItem="0NP-MK-h5x" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="104" id="fDf-tL-p0f"/>
                 <constraint firstItem="vvR-Qa-7kk" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ona-4S-bda"/>
+                <constraint firstItem="Jwo-Fv-uK5" firstAttribute="top" secondItem="E3q-O3-rlP" secondAttribute="bottom" constant="33" id="oqr-4x-zd9"/>
+                <constraint firstItem="E3q-O3-rlP" firstAttribute="top" secondItem="vvR-Qa-7kk" secondAttribute="bottom" constant="40" id="tcc-78-vQP"/>
+                <constraint firstItem="E3q-O3-rlP" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="vye-P4-1T5"/>
+                <constraint firstItem="Jwo-Fv-uK5" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="zXq-F6-wI6"/>
             </constraints>
         </view>
     </objects>
