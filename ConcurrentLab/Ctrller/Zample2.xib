@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Zample2Controller">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="HEj-5b-hOi"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0NP-MK-h5x">
+                    <rect key="frame" x="155" y="104" width="65" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Ht1-6l-43f"/>
+                        <constraint firstAttribute="width" constant="65" id="qmQ-jb-I1N"/>
+                    </constraints>
+                    <state key="normal" title="onlyOnce"/>
+                    <connections>
+                        <action selector="onclickAction:" destination="-1" eventType="touchUpInside" id="sZi-iJ-1kM"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vvR-Qa-7kk">
+                    <rect key="frame" x="113" y="173" width="148" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="148" id="C05-Jb-Vgz"/>
+                        <constraint firstAttribute="height" constant="30" id="o9z-Sc-MjN"/>
+                    </constraints>
+                    <state key="normal" title="maxConcurrentCount"/>
+                    <connections>
+                        <action selector="onclickAction:" destination="-1" eventType="touchUpInside" id="dt0-FT-vpP"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vvR-Qa-7kk" firstAttribute="top" secondItem="0NP-MK-h5x" secondAttribute="bottom" constant="39" id="4zF-dS-U2x"/>
+                <constraint firstItem="0NP-MK-h5x" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="9Wg-df-0fL"/>
+                <constraint firstItem="0NP-MK-h5x" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="104" id="fDf-tL-p0f"/>
+                <constraint firstItem="vvR-Qa-7kk" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ona-4S-bda"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

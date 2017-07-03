@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F37C0DA1F06189800EE713F /* Zample2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F37C0D91F06189800EE713F /* Zample2Controller.m */; };
+		8F37C0DC1F06487C00EE713F /* Zample2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F37C0DB1F06487C00EE713F /* Zample2.xib */; };
 		8FE2D54C1ECAC678001DACC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE2D54B1ECAC678001DACC1 /* main.m */; };
 		8FE2D54F1ECAC678001DACC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE2D54E1ECAC678001DACC1 /* AppDelegate.m */; };
 		8FE2D5521ECAC678001DACC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE2D5511ECAC678001DACC1 /* ViewController.m */; };
 		8FE2D5551ECAC678001DACC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FE2D5531ECAC678001DACC1 /* Main.storyboard */; };
 		8FE2D5571ECAC678001DACC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FE2D5561ECAC678001DACC1 /* Assets.xcassets */; };
 		8FE2D55A1ECAC678001DACC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FE2D5581ECAC678001DACC1 /* LaunchScreen.storyboard */; };
+		8FE2D5641ECAC746001DACC1 /* RootTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE2D5631ECAC746001DACC1 /* RootTableCell.m */; };
+		8FE2D5681ECAC867001DACC1 /* Zample1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE2D5671ECAC867001DACC1 /* Zample1Controller.m */; };
+		D6AA9676E7C7798E97DF4659 /* libPods-ConcurrentLab.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C13A490D02F0248D716AE736 /* libPods-ConcurrentLab.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		391D8A0836E2898FC640F270 /* Pods-ConcurrentLab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConcurrentLab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConcurrentLab/Pods-ConcurrentLab.debug.xcconfig"; sourceTree = "<group>"; };
+		8F37C0D81F06189800EE713F /* Zample2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zample2Controller.h; sourceTree = "<group>"; };
+		8F37C0D91F06189800EE713F /* Zample2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zample2Controller.m; sourceTree = "<group>"; };
+		8F37C0DB1F06487C00EE713F /* Zample2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Zample2.xib; sourceTree = "<group>"; };
 		8FE2D5471ECAC678001DACC1 /* ConcurrentLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConcurrentLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FE2D54B1ECAC678001DACC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8FE2D54D1ECAC678001DACC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +35,12 @@
 		8FE2D5561ECAC678001DACC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FE2D5591ECAC678001DACC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FE2D55B1ECAC678001DACC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FE2D5621ECAC746001DACC1 /* RootTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableCell.h; sourceTree = "<group>"; };
+		8FE2D5631ECAC746001DACC1 /* RootTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableCell.m; sourceTree = "<group>"; };
+		8FE2D5661ECAC867001DACC1 /* Zample1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zample1Controller.h; sourceTree = "<group>"; };
+		8FE2D5671ECAC867001DACC1 /* Zample1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zample1Controller.m; sourceTree = "<group>"; };
+		B9DD9842B41650A238F2106D /* Pods-ConcurrentLab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConcurrentLab.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConcurrentLab/Pods-ConcurrentLab.release.xcconfig"; sourceTree = "<group>"; };
+		C13A490D02F0248D716AE736 /* libPods-ConcurrentLab.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ConcurrentLab.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +48,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6AA9676E7C7798E97DF4659 /* libPods-ConcurrentLab.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4526BB3490E571046A14C402 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C13A490D02F0248D716AE736 /* libPods-ConcurrentLab.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8FE2D53E1ECAC678001DACC1 = {
 			isa = PBXGroup;
 			children = (
 				8FE2D5491ECAC678001DACC1 /* ConcurrentLab */,
 				8FE2D5481ECAC678001DACC1 /* Products */,
+				E748B15F61FE604DF4A602A8 /* Pods */,
+				4526BB3490E571046A14C402 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +88,8 @@
 				8FE2D54E1ECAC678001DACC1 /* AppDelegate.m */,
 				8FE2D5501ECAC678001DACC1 /* ViewController.h */,
 				8FE2D5511ECAC678001DACC1 /* ViewController.m */,
+				8FE2D5651ECAC84D001DACC1 /* Ctrller */,
+				8FE2D5611ECAC746001DACC1 /* view */,
 				8FE2D5531ECAC678001DACC1 /* Main.storyboard */,
 				8FE2D5561ECAC678001DACC1 /* Assets.xcassets */,
 				8FE2D5581ECAC678001DACC1 /* LaunchScreen.storyboard */,
@@ -79,6 +107,36 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8FE2D5611ECAC746001DACC1 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				8FE2D5621ECAC746001DACC1 /* RootTableCell.h */,
+				8FE2D5631ECAC746001DACC1 /* RootTableCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		8FE2D5651ECAC84D001DACC1 /* Ctrller */ = {
+			isa = PBXGroup;
+			children = (
+				8FE2D5661ECAC867001DACC1 /* Zample1Controller.h */,
+				8FE2D5671ECAC867001DACC1 /* Zample1Controller.m */,
+				8F37C0D81F06189800EE713F /* Zample2Controller.h */,
+				8F37C0D91F06189800EE713F /* Zample2Controller.m */,
+				8F37C0DB1F06487C00EE713F /* Zample2.xib */,
+			);
+			path = Ctrller;
+			sourceTree = "<group>";
+		};
+		E748B15F61FE604DF4A602A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				391D8A0836E2898FC640F270 /* Pods-ConcurrentLab.debug.xcconfig */,
+				B9DD9842B41650A238F2106D /* Pods-ConcurrentLab.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +144,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FE2D55E1ECAC678001DACC1 /* Build configuration list for PBXNativeTarget "ConcurrentLab" */;
 			buildPhases = (
+				7927484EED5ACC2C93857A1A /* [CP] Check Pods Manifest.lock */,
 				8FE2D5431ECAC678001DACC1 /* Sources */,
 				8FE2D5441ECAC678001DACC1 /* Frameworks */,
 				8FE2D5451ECAC678001DACC1 /* Resources */,
+				8BC2897521D4F25994807757 /* [CP] Embed Pods Frameworks */,
+				532FD518D6AF00E55D9B2C51 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -141,10 +202,59 @@
 				8FE2D55A1ECAC678001DACC1 /* LaunchScreen.storyboard in Resources */,
 				8FE2D5571ECAC678001DACC1 /* Assets.xcassets in Resources */,
 				8FE2D5551ECAC678001DACC1 /* Main.storyboard in Resources */,
+				8F37C0DC1F06487C00EE713F /* Zample2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		532FD518D6AF00E55D9B2C51 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConcurrentLab/Pods-ConcurrentLab-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7927484EED5ACC2C93857A1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8BC2897521D4F25994807757 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConcurrentLab/Pods-ConcurrentLab-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8FE2D5431ECAC678001DACC1 /* Sources */ = {
@@ -152,7 +262,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FE2D5521ECAC678001DACC1 /* ViewController.m in Sources */,
+				8F37C0DA1F06189800EE713F /* Zample2Controller.m in Sources */,
 				8FE2D54F1ECAC678001DACC1 /* AppDelegate.m in Sources */,
+				8FE2D5641ECAC746001DACC1 /* RootTableCell.m in Sources */,
+				8FE2D5681ECAC867001DACC1 /* Zample1Controller.m in Sources */,
 				8FE2D54C1ECAC678001DACC1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +386,7 @@
 		};
 		8FE2D55F1ECAC678001DACC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 391D8A0836E2898FC640F270 /* Pods-ConcurrentLab.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E3XZ878L8N;
@@ -285,6 +399,7 @@
 		};
 		8FE2D5601ECAC678001DACC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9DD9842B41650A238F2106D /* Pods-ConcurrentLab.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E3XZ878L8N;
@@ -314,6 +429,7 @@
 				8FE2D5601ECAC678001DACC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
